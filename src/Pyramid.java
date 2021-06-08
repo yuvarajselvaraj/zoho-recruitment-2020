@@ -9,7 +9,7 @@ public class Pyramid {
             int mid = length / 2;
             for (int j = length; j >= 1; j--) {
                 if (j > i) {
-                    System.out.print("-");
+                    System.out.print(" ");
                 } else {
                     System.out.print(original_text.charAt(mid));
                     mid = mid + 1;
